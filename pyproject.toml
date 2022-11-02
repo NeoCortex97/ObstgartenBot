@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "obstgartenbot"
+version = "0.1.0"
+description = ""
+authors = ["StefanSchmelz <stefan_schmelz@gmx.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+py-cord = "^2.2.2"
+sqlalchemy = "^1.4.42"
+alembic = "^1.8.1"
+pydantic = "^1.10.2"
+loguru = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
